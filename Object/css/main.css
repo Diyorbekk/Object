@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans",sans-serif;
+}
+
+:root{
+    --LightGrey-color: #F6F6F6;
+    --White-color: #FFFFFF;
+    --LightWhite-color: #00548B1C;
+    --MediumBlue-color: #4997ED;
+    --DarkBlue-color: #3E90EC;
+    --DarkBlueShadow-color: #00548B29;
+    --ShadowEffect-color: 0px 10px 20px #48AEE91C;
+    --LightBlue-color: #B2E1FF;
+    --DarkGrey-color: #565E67;
+    --Grey-color: #C8C8C8;
+    --TextLightGrey-color: #CECECE;
+    --OpenSans16-Font: 16px;
+    --OpenSans14-Font: 14px;
+    --OpenSans12-Font: 12px;
+}
+body{
+    background-color: var(--LightGrey-color);
+}
+
+.LoginBody header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LoginForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 420px;
+    background: var(--White-color);
+    border-radius: 10px;
+    padding: 65px 40px;
+}
+
+.LoginFormTitle{
+    font-size: var(--OpenSans16-Font);
+    color: var(--MediumBlue-color);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.LoginFormGroup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.LoginFormGroupLabel{
+    color: var(--DarkGrey-color);
+    font-size: var(--OpenSans14-Font);
+}
+
+.LoginFormGroupInput{
+    border: 1px solid var(--LightBlue-color);
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px 15px;
+}
+
+.LoginFormGroupInput::placeholder{
+    font-size: var(--OpenSans12-Font);
+    color: var(--DarkGrey-color);
+    opacity: 0.28;
+}
+.LoginFormButton{
+    margin-top: 60px;
+    padding: 10px 0;
+    width: 80%;
+    background: var(--DarkBlue-color);
+    box-shadow: 0px 3px 10px var(--DarkBlueShadow-color);
+    border: none;
+    color: var(--White-color);
+    border-radius: 4px;
+}
+.SignUp{
+    margin-top: 20px;
+    font-size: var(--OpenSans12-Font);
+    color: var(--MediumBlue-color);
+}
+
+.ObjectList{
+    position: relative;
+}
+
+
+.ObjectList header{
+    background: var(--White-color);
+    padding: 21px 100px;
+}
+
+.ObjectList .SideBar{
+    background: var(--White-color);
+    display: block;
+    position: absolute;
+    width: 12%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.SideBarHeader{
+    height: 90px;
+    background: var(--DarkBlue-color);
+}
+
+.ObjectListUser{
+    font-size: var(--OpenSans16-Font);
+    color: var(--DarkBlue-color);
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+.list-group-item{
+    display: flex;
+    border: none;
+    color: var(--MediumBlue-color);
+    padding: 1.25rem;
+    padding-left: 2.5rem;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.list-group-item:after{
+    content: "";
+    opacity: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background: #3E90EC 0% 0% no-repeat padding-box;
+    border-radius: 0px 25px 25px 0px;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+    width: 10px;
+    height: 60px;
+}
+
+.list-group-item:hover.list-group-item:after{
+    opacity: 1;
+}
+
+.list-group-item:first-child{
+    margin-top: 20px;
+}
+
+.list-group-item:last-child{
+    border-top: 1px solid #e8e8e8;
+}
+
+.ulFixed{
+    width: 12%;
+    position: fixed;
+}
+
+.ObjectListMain{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 100px;
+    margin-top: 48px;
+}
+
+.ObjectListMainContainer{
+    background: var(--White-color);
+    box-shadow: var(--ShadowEffect-color);
+    width: 86%;
+    border-radius: 4px;
+    padding: 52px 55px;
+}
+
+.FormSearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.FormSearchInput{
+    width: 265px;
+    border: 1px solid var(--LightBlue-color);
+    border-radius: 4px;
+    padding: 7px 15px;
+}
+
+.FormSearchLabel{
+    font-size: var(--OpenSans12-Font);
+    font-family: "Open Sans-r", sans-serif;
+    color: var(--TextLightGrey-color);
+    letter-spacing: 0.8px;
+}
+
+.FormSearchButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background: var(--DarkBlue-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-ExtraBold.ttf");
+    src: url("../font/OpenSans-Bold.ttf");
+    src: url("../font/OpenSans-Light.ttf");
+    src: url("../font/OpenSans-Regular.ttf");
+    src: url("../font/OpenSans-SemiBold.ttf");
+}
