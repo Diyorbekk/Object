@@ -103,6 +103,10 @@ body{
 .ObjectList header{
     background: var(--White-color);
     padding: 21px 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: var(--ShadowEffect-color);
 }
 
 .ObjectList .SideBar{
@@ -166,6 +170,8 @@ body{
 .ulFixed{
     width: 12%;
     position: fixed;
+    height: 100%;
+    background: var(--White-color);
 }
 
 .ObjectListMain{
@@ -173,7 +179,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     padding: 0 100px;
-    margin-top: 48px;
+    margin-top: 140px;
 }
 
 .ObjectListMainContainer{
@@ -270,6 +276,49 @@ body{
 
 tbody tr:nth-child(odd){
     background: var(--LightGrey-color);
+}
+
+.ObjectAgreementList{
+    position: relative;
+}
+
+
+.ObjectAgreementList header{
+    background: var(--White-color);
+    padding: 21px 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: var(--ShadowEffect-color);
+}
+
+.ObjectAgreementList .SideBar{
+    background: var(--White-color);
+    display: block;
+    position: absolute;
+    width: 12%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.ObjectsBox{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.ObjectBoxTitle{
+    font-size: var(--OpenSans12-Font);
+    font-family: "Open Sans-Regular",sans-serif;
+    color: var(--TextLightGrey-color);
+    margin-bottom: 8px;
+}
+
+.ObjectBoxText{
+    font-size: var(--OpenSans14-Font);
+    color: var(--DarkBlue-color);
 }
 
 
