@@ -13,6 +13,7 @@
     --LightWhite-color: #00548B1C;
     --MediumBlue-color: #4997ED;
     --DarkBlue-color: #3E90EC;
+    --TableText-color: #B7B7B7;
     --DarkBlueShadow-color: #00548B29;
     --ShadowEffect-color: 0px 10px 20px #48AEE91C;
     --LightBlue-color: #B2E1FF;
@@ -109,7 +110,7 @@ body{
     display: block;
     position: absolute;
     width: 12%;
-    height: 100vh;
+    height: 100%;
     left: 0;
     top: 0;
 }
@@ -169,8 +170,8 @@ body{
 
 .ObjectListMain{
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
     padding: 0 100px;
     margin-top: 48px;
 }
@@ -198,7 +199,7 @@ body{
 
 .FormSearchLabel{
     font-size: var(--OpenSans12-Font);
-    font-family: "Open Sans-r", sans-serif;
+    font-family: "Open Sans-Regular", sans-serif;
     color: var(--TextLightGrey-color);
     letter-spacing: 0.8px;
 }
@@ -210,6 +211,64 @@ body{
     width: 45px;
     height: 40px;
     background: var(--DarkBlue-color);
+}
+
+.ObjectListTable{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ObjectListHeader{
+    width: 100%;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.ObjectListHeaderTitle{
+    text-transform: uppercase;
+    font-size: var(--OpenSans16-Font);
+    color: var(--Grey-color);
+    letter-spacing: 0.8px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.ObjectListHeaderButton{
+    font-size: var(--OpenSans12-Font);
+    color: var(--DarkBlue-color);
+    border: 1px solid var(--DarkBlue-color);
+    font-family: "Open Sans-Regular", sans-serif;
+}
+
+.Cont_2{
+    margin-top: 50px;
+    padding: 0;
+}
+
+.table {
+    width: 96%;
+    margin-bottom: 1rem;
+    color: var(--TableText-color);
+}
+
+.table .FristTh{
+    border-top: none;
+    border-bottom: none;
+    color: var(--DarkBlue-color);
+    font-size: var(--OpenSans14-Font);
+}
+
+.tableText{
+    font-size: var(--OpenSans14-Font);
+    font-family: "Open Sans-Regular", sans-serif;
+}
+
+tbody tr:nth-child(odd){
+    background: var(--LightGrey-color);
 }
 
 
@@ -240,9 +299,29 @@ body{
 
 @font-face {
     font-family: 'Open Sans';
-    src: url("../font/OpenSans-ExtraBold.ttf");
-    src: url("../font/OpenSans-Bold.ttf");
-    src: url("../font/OpenSans-Light.ttf");
-    src: url("../font/OpenSans-Regular.ttf");
+
     src: url("../font/OpenSans-SemiBold.ttf");
 }
+
+@font-face{
+    font-family: 'Open Sans-ExtraBold';
+    src: url("../font/OpenSans-ExtraBold.ttf");
+}
+
+@font-face{
+    font-family: 'Open Sans-Bold';
+    src: url("../font/OpenSans-Bold.ttf");
+}
+
+@font-face{
+    font-family: 'Open Sans-Light';
+    src: url("../font/OpenSans-Light.ttf");
+}
+
+@font-face{
+    font-family: 'Open Sans-Regular';
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+
+
