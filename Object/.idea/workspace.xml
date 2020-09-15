@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af269f5b-b22f-4da5-927a-c69e839e8b75" name="Default Changelist" comment="" />
+    <list default="true" id="af269f5b-b22f-4da5-927a-c69e839e8b75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/document-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +12,13 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -24,10 +34,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -40,6 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590644648294</updated>
       <workItem from="1590644659371" duration="2721000" />
+      <workItem from="1600085601719" duration="748000" />
+      <workItem from="1600086644790" duration="4788000" />
     </task>
     <servers />
   </component>
@@ -47,17 +60,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="279" y="24" key="#Notifications" timestamp="1590644896443">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="872" y="358" key="#Notifications" timestamp="1600085748283">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="279" y="24" key="#Notifications/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1590644896443" />
-    <state x="467" y="120" key="FileChooserDialogImpl" timestamp="1590644950892">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="872" y="358" key="#Notifications/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1600085748283" />
+    <state x="588" y="251" width="998" height="708" key="SettingsEditor" timestamp="1600087195029">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="467" y="120" key="FileChooserDialogImpl/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1590644950892" />
-    <state x="188" y="8" key="SettingsEditor" timestamp="1590644957446">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="188" y="8" key="SettingsEditor/0.0.1366.728/1366.-304.1920.1040@0.0.1366.728" timestamp="1590644957446" />
+    <state x="588" y="251" width="998" height="708" key="SettingsEditor/-1920.0.1536.832/0.0.2560.1400@0.0.2560.1400" timestamp="1600087195029" />
   </component>
 </project>
